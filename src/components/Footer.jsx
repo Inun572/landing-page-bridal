@@ -24,7 +24,7 @@ const Footer = () => {
               Surabaya, Jawa Timur 60225
             </p>
           </div>
-          <nav>
+          <nav className="py-2">
             <h6 className="footer-title">Social</h6>
             <div className="grid grid-flow-col place-content-center gap-4">
               <a>
@@ -63,21 +63,58 @@ const Footer = () => {
             </div>
           </nav>
         </aside>
-        <nav>
+        <div className="collapse collapse-arrow bg-base-200 md:hidden">
+          <input type="checkbox" />
+          <div className="collapse-title pl-12 text-xl font-medium">
+            Services
+          </div>
+          <div className="collapse-content flex flex-col">
+            <a className="link link-hover">Branding</a>
+            <a className="link link-hover">Design</a>
+            <a className="link link-hover">Marketing</a>
+            <a className="link link-hover">Advertisement</a>
+          </div>
+        </div>
+        <div className="collapse collapse-arrow bg-base-200 md:hidden">
+          <input type="checkbox" />
+          <div className="collapse-title pl-12 text-xl font-medium">
+            Company
+          </div>
+          <div className="collapse-content flex flex-col">
+            <a className="link link-hover">About us</a>
+            <a className="link link-hover">Contact</a>
+            <a className="link link-hover">Jobs</a>
+            <a className="link link-hover">Press kit</a>
+          </div>
+        </div>
+        <div className="collapse collapse-arrow bg-base-200 md:hidden">
+          <input type="checkbox" />
+          <div className="collapse-title pl-12 text-xl font-medium">
+            Legal
+          </div>
+          <div className="collapse-content flex flex-col">
+            <a className="link link-hover">Terms of use</a>
+            <a className="link link-hover">
+              Privacy policy
+            </a>
+            <a className="link link-hover">Cookie policy</a>
+          </div>
+        </div>
+        <nav className="hidden md:flex flex-col">
           <h6 className="footer-title">Services</h6>
           <a className="link link-hover">Branding</a>
           <a className="link link-hover">Design</a>
           <a className="link link-hover">Marketing</a>
           <a className="link link-hover">Advertisement</a>
         </nav>
-        <nav>
+        <nav className="hidden md:flex flex-col">
           <h6 className="footer-title">Company</h6>
           <a className="link link-hover">About us</a>
           <a className="link link-hover">Contact</a>
           <a className="link link-hover">Jobs</a>
           <a className="link link-hover">Press kit</a>
         </nav>
-        <nav>
+        <nav className="hidden md:flex flex-col">
           <h6 className="footer-title">Legal</h6>
           <a className="link link-hover">Terms of use</a>
           <a className="link link-hover">Privacy policy</a>
