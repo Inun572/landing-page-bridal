@@ -1,13 +1,13 @@
 const Navbar = () => {
   return (
-    <header className="navbar fixed top-0 left-0 px-16 bg-slate-400">
+    <header className="navbar md:min-h-20 fixed top-0 left-0 px-8 md:px-16">
       <div className="navbar-start">
-        <a className="text-2xl cursor-pointer">
+        <a className="text-xl md:text-2xl cursor-pointer">
           House of Lea
         </a>
       </div>
       <nav className="navbar-center hidden lg:flex">
-        <ul className="menu menu-horizontal text-lg px-1">
+        <ul className="menu menu-horizontal px-1">
           <li>
             <a>Home</a>
           </li>
@@ -61,7 +61,7 @@ const Navbar = () => {
               <a>Packages</a>
             </li>
             <li className="flex justify-center items-center mt-4">
-              <a className="btn btn-outline btn-active w-3/4 h-8 py-3">
+              <a className="btn btn-sm btn-outline btn-active w-3/4">
                 Contact Us
               </a>
             </li>

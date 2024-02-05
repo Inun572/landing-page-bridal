@@ -8,13 +8,15 @@ import Packages from './components/Packages';
 
 function App() {
   return (
-    <div className="w-screen px-16">
+    <div className="w-screen">
       <Navbar />
       <Hero />
-      <About />
-      <Gallery />
-      <Packages />
-      <Contact />
+      <main className="px-8 md:px-16">
+        <About />
+        <Gallery />
+        <Packages />
+        <Contact />
+      </main>
       <Footer />
     </div>
   );

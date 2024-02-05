@@ -8,8 +8,8 @@ export default {
   },
   plugins: [daisyui],
   daisyui: {
-    theme: ['cupcake'],
-    basse: true,
+    theme: ['light'],
+    base: true,
     utils: true,
     styled: true,
   },
