@@ -8,7 +8,7 @@ import Packages from './components/Packages';
 
 function App() {
   return (
-    <div className="w-screen">
+    <div className="w-full">
       <Navbar />
       <Hero />
       <main className="px-8 md:px-16">

@@ -5,5 +5,7 @@
 @layer base {
   html {
     font-family: 'Poppins', system-ui, sans-serif;
+    width: 100vw;
+    overflow-x: hidden;
   }
 }
