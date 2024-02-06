@@ -1,4 +1,5 @@
 import banner from '../assets/banner.jpg';
+import { PiArrowRightBold } from 'react-icons/pi';
 
 const Hero = () => {
   return (
@@ -8,19 +9,23 @@ const Hero = () => {
         backgroundImage: `url(${banner})`,
       }}
     >
-      <div className="hero-content text-left">
+      <div className="hero-content w-full justify-start text-left">
         <div className="max-w-md">
+          <h3 className="mb-2 text-2xl font-semibold">
+            Love Story in Every Look
+          </h3>
           <h1 className="mb-5 text-5xl font-bold">
-            Hello there
+            Crafting Your Bridal Radiance
           </h1>
           <p className="mb-5">
-            Provident cupiditate voluptatem et in. Quaerat
-            fugiat ut assumenda excepturi exercitationem
-            quasi. In deleniti eaque aut repudiandae et a id
-            nisi.
+            Connects makeup to the sentimental aspect of the
+            wedding.
           </p>
           <button className="btn btn-primary">
-            Get Started
+            Unlock your dream{' '}
+            <span>
+              <PiArrowRightBold />
+            </span>
           </button>
         </div>
       </div>
